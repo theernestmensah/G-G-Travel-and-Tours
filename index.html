@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G&G Travel and Tours</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-circle">G&G</div>
+                <div class="logo-text">G&G Travel and Tours</div>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#destinations" class="nav-link">Destinations <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Benin</a></li>
+                            <li><a href="#">Burkina Faso</a></li>
+                            <li><a href="#">Cape Verde</a></li>
+                            <li><a href="#">Côte d'Ivoire</a></li>
+                            <li><a href="#">Gambia</a></li>
+                            <li><a href="#">Ghana</a></li>
+                            <li><a href="#">Guinea</a></li>
+                            <li><a href="#">Guinea-Bissau</a></li>
+                            <li><a href="#">Liberia</a></li>
+                            <li><a href="#">Mali</a></li>
+                            <li><a href="#">Mauritania</a></li>
+                            <li><a href="#">Niger</a></li>
+                            <li><a href="#">Nigeria</a></li>
+                            <li><a href="#">Senegal</a></li>
+                            <li><a href="#">Sierra Leone</a></li>
+                            <li><a href="#">Togo</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item theme-toggle-container">
+                        <button id="theme-toggle" class="theme-toggle-btn">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1 class="hero-title">Discover the Wonders of Africa</h1>
+            <p class="hero-subtitle">Experience unforgettable journeys with G&G Travel and Tours</p>
+            <a href="#services" class="btn">Explore Our Services</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Flight Booking" class="service-img">
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fas fa-plane"></i>
+                        </div>
+                        <h3>Flight Bookings</h3>
+                        <p>We offer seamless international and domestic flight booking services with the best rates and convenient schedules.</p>
+                        <a href="#contact" class="btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1505993597083-3bd19fb75e57?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Tours" class="service-img">
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                        <h3>Guided Tours</h3>
+                        <p>Explore the natural and cultural wonders of Africa with our expertly crafted tours and experienced guides.</p>
+                        <a href="#contact" class="btn">Explore Tours</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Accommodation" class="service-img">
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fas fa-hotel"></i>
+                        </div>
+                        <h3>Hotel Bookings</h3>
+                        <p>Find the perfect accommodation for your journey, from luxury resorts to cozy lodges and everything in between.</p>
+                        <a href="#contact" class="btn">Find Hotels</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="section">
+        <div class="container">
+            <h2 class="section-title">Popular Destinations</h2>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Serengeti National Park" class="destination-img">
+                    <div class="destination-overlay">
+                        <h3>Serengeti National Park</h3>
+                        <p>Tanzania</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1589553416264-f586c8f1514f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Victoria Falls" class="destination-img">
+                    <div class="destination-overlay">
+                        <h3>Victoria Falls</h3>
+                        <p>Zambia/Zimbabwe</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1591081658710-4dddbd6c4f01?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Pyramids of Giza" class="destination-img">
+                    <div class="destination-overlay">
+                        <h3>Pyramids of Giza</h3>
+                        <p>Egypt</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"The wildlife safari in Kenya was the most incredible experience of my life. G&G Travel made everything so seamless and enjoyable."</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Sarah Johnson" class="author-avatar">
+                        <div>
+                            <h4>Sarah Johnson</h4>
+                            <p>USA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Our cultural tour of Morocco was absolutely breathtaking. The guides were knowledgeable and the accommodations were superb."</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="David Miller" class="author-avatar">
+                        <div>
+                            <h4>David Miller</h4>
+                            <p>UK</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"I've used G&G Travel for both business and leisure trips. Their flight booking service is efficient and always gets me the best deals."</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Lisa Chen" class="author-avatar">
+                        <div>
+                            <h4>Lisa Chen</h4>
+                            <p>Australia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-content">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1531538606174-0f90ff5dce83?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Our Team" class="about-img">
+                </div>
+                <div>
+                    <h3>Creating Memorable Journeys Since 2010</h3>
+                    <p>G&G Travel and Tours is a premier travel agency specializing in seamless international and domestic flight bookings, awe-inspiring tours through the natural and cultural wonders of Africa, and personalized travel arrangements.</p>
+                    <p>From wildlife safaris to cultural explorations, our packages are thoughtfully crafted to provide unforgettable experiences. With additional services like hotel bookings, car rentals, and study abroad assistance, we aim to cover all your travel and exploration needs.</p>
+                    <p>Our team of experienced travel consultants are passionate about creating journeys that resonate with every traveler. We pride ourselves on our attention to detail, personalized service, and deep knowledge of the destinations we offer.</p>
+                    <a href="#contact" class="btn">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" id="name" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" id="email" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" class="form-textarea" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Adventure Street, Nairobi, Kenya</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+254 700 123 456</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@ggtraveltours.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4>Business Hours</h4>
+                            <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+                            <p>Saturday: 9:00 AM - 4:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-logo">
+                        <div class="logo-circle">G&G</div>
+                        <div class="logo-text">G&G Travel and Tours</div>
+                    </div>
+                    <p>Creating memorable journeys that resonate with every traveler. Experience the wonders of Africa with us.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home" class="footer-link">Home</a></li>
+                        <li><a href="#services" class="footer-link">Services</a></li>
+                        <li><a href="#destinations" class="footer-link">Destinations</a></li>
+                        <li><a href="#testimonials" class="footer-link">Testimonials</a></li>
+                        <li><a href="#about" class="footer-link">About Us</a></li>
+                        <li><a href="#contact" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-heading">Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Flight Bookings</a></li>
+                        <li><a href="#" class="footer-link">Guided Tours</a></li>
+                        <li><a href="#" class="footer-link">Hotel Reservations</a></li>
+                        <li><a href="#" class="footer-link">Car Rentals</a></li>
+                        <li><a href="#" class="footer-link">Study Abroad Programs</a></li>
+                        <li><a href="#" class="footer-link">Travel Insurance</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-heading">Newsletter</h3>
+                    <p>Subscribe to our newsletter for travel updates and special offers.</p>
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-input" placeholder="Your Email" required>
+                        </div>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 G&G Travel and Tours. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
