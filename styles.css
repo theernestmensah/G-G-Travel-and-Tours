@@ -224,6 +224,26 @@ header {
     transform: rotate(180deg);
 }
 
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu > a {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-left: 0.1rem;
+    margin-top: -0.6rem;
+}
+
+.dropdown-submenu:hover .dropdown-menu {
+    display: block;
+}
+
 /* Theme Toggle Styles */
 .theme-toggle-container {
     margin-left: 1rem;
