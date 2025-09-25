@@ -204,7 +204,7 @@ header {
 .dropdown-menu-submenu {
     display: none;
     position: absolute;
-    left: 100%;
+    left: 90%;
     top: 0;
     background-color: var(--white);
     box-shadow: 0 4px 12px var(--shadow-color);
