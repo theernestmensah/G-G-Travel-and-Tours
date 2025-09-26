@@ -18,9 +18,52 @@
         h1 {
             color: #2E8B57;
         }
+
+        .logo-container {{
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+        }}
+        .logo {{
+            display: flex;
+            align-items: center;
+        }}
+        .logo-circle {{
+            width: 50px;
+            height: 50px;
+            background-color: #2E8B57;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            overflow: hidden;
+        }}
+        .logo-circle img {{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }}
+        .logo-text {{
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1a5632;
+        }}
+
     </style>
+    <link rel="icon" href="GnG logo.png" type="image/x-icon">
+
 </head>
 <body>
+
+<div class="logo-container">
+    <div class="logo">
+        <div class="logo-circle"><img src="GnG logo.png" alt="G&G Logo"></div>
+        <div class="logo-text">G&G Travel and Tours</div>
+    </div>
+</div>
+
     <h1>Welcome to Niger!</h1>
 </body>
-</html>
+</html>\n
