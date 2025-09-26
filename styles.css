@@ -216,6 +216,7 @@ header {
     margin-top: -0.5rem; /* Align with parent item */
     max-height: 300px; /* For scrollable dropdowns */
     overflow-y: auto; /* For scrollable dropdowns */
+    overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
 .dropdown-submenu.active > .dropdown-menu-submenu {
